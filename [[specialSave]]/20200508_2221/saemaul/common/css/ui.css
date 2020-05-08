@@ -1,0 +1,116 @@
+.sbox {
+    display: inline-block;
+	position: relative;
+	vertical-align : top;
+}
+.sbox > a {
+    padding: 17px;
+    border: 1px solid #64bdc1;
+	width: calc(100% - 34px);
+	min-height : 14px;
+    display: block;
+    font-size: 14px;
+    text-align: left;
+}
+
+.sbox ul {
+    position: absolute;
+    top: 50px;
+    border: 1px solid #64bdc1;
+    border-top: none;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    max-height: 208px;
+    overflow: auto;
+    z-index: 10;
+	display: none;
+	font-size : 14px;
+}
+.sbox ul li {
+    width: 100%;
+    text-align: left;
+}
+.sbox ul li a {
+	padding: 17px;
+	width : auto;
+	height : 100%;
+	display : block;
+}
+.sbox ul li a:hover {
+	background-color : #64bdc1;
+}
+.sbox:before {
+    content: "";
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    top: 23px;
+    right: 17px;
+    background: url(/saemaul/app/common/img/icon_dropDown.png) no-repeat center / cover;
+}
+input, 
+input[type=text], 
+input[type=password], 
+.tbox {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    -webkit-border-radius: 0!important;
+    box-shadow: none !important;
+    /* -webkit-border-radius: 0 !important; */
+    /* -moz-border-radius: 0 !important; */
+    /* border-radius: 0 !important; */
+}
+
+input::placeholder {
+	color : #cdcdcd;
+}
+textarea::placeholder {
+	color : #cdcdcd;
+}
+a.btn {
+	display : block;
+	text-align : center;
+	width : 100%;
+	font-size : 18px;
+	font-weight: 600;
+	min-height : 18px;
+	padding : 18px 0;
+	border-radius : 10px;
+	background-color : #64bdc1;
+	color : #fff;
+}
+
+
+/* 마진 규정 파트 open */
+.ml12 {
+	margin-left : 12px;
+}
+.mt10 {
+	margin-top : 10px;
+}
+.mt12 {
+	margin-top : 12px;
+}
+.mt20 {
+	margin-top : 20px;
+}
+.mt30 {
+	margin-top : 30px;
+}
+/* 마진 규정 파트 close */
+
+
+/* :: 아이콘 규정 파트 open  */
+.closeBtn.iconXSort {
+	width : 18px;
+	height : 18px;
+	background : url(/saemaul/app/common/img/icon_closeX.png) no-repeat center / cover;
+}
+.pencilIcon {
+	width : 20px;
+	height : 20px;
+	background : url(/saemaul/app/common/img/icon_pencil.png) no-repeat center / cover;
+}
+/* :: 아이콘 규정 파트 close  */
